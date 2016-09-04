@@ -41,7 +41,7 @@
     "node": ">=0.4.0"
   },
   "dependencies": {
-    "rx": "^4.0.7"
+    "rx": "^4.1.0"
   },
   "bundleDependencies": [
     "rx"
@@ -61,6 +61,9 @@
     "gulp-util": "~3.0.5",
     "mocha": "^2.3.4",
     "open": "~0.0.5"
+  },
+  "peerDependencies": {
+    "postal": "^2.0.0"
   },
   "licenses": [
     {
